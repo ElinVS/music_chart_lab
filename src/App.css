@@ -1,12 +1,14 @@
 body {
-  background-image: linear-gradient(to right, #02AABD, #00CDAC) ;
+  background-image: linear-gradient(to right, #121212 , #00CDAC) ;
+  
   
 }
 header {
   color:white;
   text-align: center;
-  background-image: linear-gradient(to right, #02AABD, #00CDAC) ;
-  border: 1px solid #02AABD;
+  background-image: linear-gradient(to right, #121212, #202020) ;
+  border-bottom: 1px solid #121212;
+  padding-top:10px;
   position: sticky;
   top:0;
 }
@@ -15,12 +17,23 @@ header {
   flex-flow: nowrap;
   justify-content: flex-start;
   margin-left: 80px;
+  color:white;
 }
 
 #song-img {
   width: 100px;
   height: 100px;
   border-radius: 10px;
+}
+
+  td{
+    border-collapse: collapse;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+    margin:20px;
+    
 }
 
 
