@@ -17,7 +17,8 @@ const SongList = ({songs}) => {
                 <td> <img id="song-img" src={song['im:image'][2].label} alt='artist image'/></td>
                 <td><h3><em> {song['im:name'].label}, </em></h3></td>
                 <td><h4> {song['im:artist'].label} </h4></td>
-                <td><audio></audio></td>
+                
+                {/* <td><audio>{song['link'][2].href}</audio></td> */}
             </tr>
             </table>
             
